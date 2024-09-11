@@ -1,0 +1,37 @@
+{
+    "expo": {
+        "name": "firebase-sdk-rn-login",
+        "slug": "firebase-sdk-rn-login",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.mrmikedev.firebasesdkrnlogin"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.mrmikedev.firebasesdkrnlogin"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "f7837214-e984-4851-8b79-b4ccbbb011ba"
+            }
+        },
+        "scheme": "firebase-sdk-rn-login",
+        "platforms": ["ios", "android", "web"],
+        "plugins": ["expo-router"]
+    }
+}
